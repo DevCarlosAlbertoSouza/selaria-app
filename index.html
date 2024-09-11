@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selaria Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Selaria do teteca</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="/produto.html">Produtos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Catálogo de Produtos</h2>
+    <div id="catalogo" class="catalogo">
+      <!-- Os produtos serão inseridos aqui dinamicamente pelo JavaScript -->
+    </div>
+
+    <h2>Carrinho de Compras</h2>
+    <div id="carrinho" class="carrinho">
+      <p>Seu carrinho está vazio.</p>
+    </div>
+    <div id="total" class="total">
+      Total: R$ <span>0.00</span>
+    </div>
+    <button id="finalizarCompra" class="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

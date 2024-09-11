@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "nome": "Sela de Couro",
+      "preco": "R$ 500,00",
+      "imagem": "assets/sela.png"
+    },
+    {
+      "id": 2,
+      "nome": "Freio de Metal",
+      "preco": "R$ 200,00",
+      "imagem": "assets/freio.png"
+    }
+  ]
+  
